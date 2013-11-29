@@ -1,0 +1,27 @@
+{
+	"name": "nilsleter",
+	"title": "Nilsleter",
+	"description": "Newsletter for all",
+	"keywords": [
+		"jquery",
+		"boilerplate",
+		"plugins",
+		"newsletter"
+	],
+	"version": "0.0.1",
+	"author": {
+		"name": "Diogo Moretti",
+		"email": "diogo.pearljam@gmail.com",
+		"url": "https://github.com/diogomoretti"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://mit-license.org/"
+		}
+	],
+	"homepage": "http://jqueryboilerplate.com",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}
