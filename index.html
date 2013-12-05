@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Nilsleter</title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/default.css" />
+    </head>
+    <body>
+        <div id="integration-form"></div>
+        
+        <!-- JS -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="jquery.md5.js"></script>
+        <script src="jquery.nilsleter.js"></script>
+        <script>
+            $("#integration-form").nilsleter({
+                modal:  false,
+                fields: { 
+                    estado: ['PR','SC','SP','RS'], 
+                    nivel:  ['Iniciante','Intermediário','Avançado','Ninja']
+                }
+            });
+        </script>
+    </body>
+</html>
