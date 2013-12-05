@@ -20,8 +20,8 @@ module.exports = function(grunt) {
         // Concat definitions
         concat: {
             dist: {
-                src: ["src/jquery.nilsleter.js"],
-                dest: "dist/jquery.nilsleter.js"
+                src: ["src/*.js"],
+                dest: "dist/main.js"
             },
             options: {
                 banner: "<%= meta.banner %>"
@@ -82,8 +82,8 @@ module.exports = function(grunt) {
         // Minify definitions
         uglify: {
             my_target: {
-                src: ["dist/jquery.nilsleter.js"],
-                dest: "dist/jquery.nilsleter.min.js"
+                src: ["src/*.js"],
+                dest: "dist"
             },
             options: {
                 banner: "<%= meta.banner %>"
@@ -103,5 +103,6 @@ module.exports = function(grunt) {
     ///////==== Define tasks
     grunt.registerTask("default", ["connect", "watch"]);
     grunt.registerTask("travis",  ["jshint"]);
+    grunt.registerTask("build",   ["uglify"]);
 
 };

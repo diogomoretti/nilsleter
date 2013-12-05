@@ -5,8 +5,9 @@
         // Create the defaults once
         var pluginName = 'nilsleter',
             defaults = {
-                token: '62bb61431348e22850828a5829c4373faafe29c1',
-                modal: false
+                modal:  false,
+                estado: ['PR','SC','SP','RS'],
+                nivel:  ['Iniciante','Intermediário','Avançado','Ninja']
             };
 
         // The actual plugin constructor
