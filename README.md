@@ -1,7 +1,7 @@
 # nilsleter
 A jQuery plugin for create newsletter subscription automatically and send data to a end-point by Ajax.
 
-** Dependencies **
+**Dependencies**
 
 The plugin require [Twitter Bootstrap](https://github.com/twbs/bootstrap) and [jQuery md5](https://gist.github.com/thanashyam/2309671).
 

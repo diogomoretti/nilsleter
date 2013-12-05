@@ -81,9 +81,9 @@ module.exports = function(grunt) {
 
         // Minify definitions
         uglify: {
-            my_target: {
-                src: ["src/*.js"],
-                dest: "dist"
+            files: {
+                src:  "src/jquery.nilsleter.js",
+                dest: "dist/jquery.nilsleter.min.js"
             },
             options: {
                 banner: "<%= meta.banner %>"
